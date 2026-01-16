@@ -3,7 +3,7 @@
 Scripts used to calculate the datasets underlying the study  
 **“Growth patterns and climate sensitivity differ for understory and canopy trees.”**
 
-The processed dendrometer data and meteorological records ready for analysis are available on **Zenodo** (DOI to be added).
+The processed dendrometer data and meteorological records ready for analysis are available on **Zenodo** (DOI: 10.5281/zenodo.18273434).
 
 ---
 
@@ -80,5 +80,5 @@ Part of the data used in this study were previously published in:
 
 The dataset with recalculated data used in the present analysis is available on Zenodo:
 
-- **Kašpar J et al. (2026).** *Dataset to paper “Growth patterns and climate sensitivity differ for understory and canopy trees”.* (Version 1.0) [Data set]. Zenodo. **DOI: to be added**
+- **Kašpar J et al. (2026).** *Dataset to paper “Growth patterns and climate sensitivity differ for understory and canopy trees”.* (Version 1.0) [Data set]. Zenodo. *DOI: 10.5281/zenodo.18273434*
 
