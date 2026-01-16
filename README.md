@@ -74,19 +74,11 @@ Main outputs used in the associated manuscript.
 
 Part of the data used in this study were previously published in:
 
-- **Kašpar J et al. (2024)**  
-  *The effects of solar radiation on daily and seasonal stem increment of canopy trees in European temperate old-growth forests.*  
-  *New Phytologist* **230**, 662–673.
+- **Kašpar J et al. (2024).** *The effects of solar radiation on daily and seasonal stem increment of canopy trees in European temperate old-growth forests.* *New Phytologist* **230**, 662–673.
 
-- **Kašpar J et al. (2024)**  
-  *Dataset to paper “The effects of solar radiation on daily and seasonal stem increment of canopy trees in European temperate old-growth forests”.*  
-  (Version 1.0) [Data set]. Zenodo.  
-  https://doi.org/10.5281/zenodo.11127186
+- **Kašpar J et al. (2024).** *Dataset to paper “The effects of solar radiation on daily and seasonal stem increment of canopy trees in European temperate old-growth forests”.* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.11127186
 
 The dataset with recalculated data used in the present analysis is available on Zenodo:
 
-- **Kašpar J et al. (2026)**  
-  *Dataset to paper “Growth patterns and climate sensitivity differ for understory and canopy trees”.*  
-  (Version 1.0) [Data set]. Zenodo.  
-  **DOI: to be added**
+- **Kašpar J et al. (2026).** *Dataset to paper “Growth patterns and climate sensitivity differ for understory and canopy trees”.* (Version 1.0) [Data set]. Zenodo. **DOI: to be added**
 
