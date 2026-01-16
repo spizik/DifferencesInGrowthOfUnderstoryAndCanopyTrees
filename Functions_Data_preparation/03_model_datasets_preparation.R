@@ -518,41 +518,41 @@ complete.data.podrost<-function(in.tree.data, in.clim.data, in.clim.data.podrost
   ## Boubin
   out$BB_FASY_smallTrees<-add.data(in.tree.data$BB_FASY_smallTrees, 
                                    climate_data$Boubin_stationclim, 
-                                   in.clim.data.podrost$podrost_BB, 
+                                   in.clim.data.podrost$understory_BB, 
                                    48.9911)
   out$BB_PCAB_smallTrees<-add.data(in.tree.data$BB_PCAB_smallTrees, 
                                    climate_data$Boubin_stationclim, 
-                                   in.clim.data.podrost$podrost_BB,
+                                   in.clim.data.podrost$understory_BB,
                                    48.9911)
   
   ## Eustaska
   out$EU_PCAB_smallTrees<-add.data(in.tree.data$EU_PCAB_smallTrees, 
                                    climate_data$Eustaska_stationclim, 
-                                   in.clim.data.podrost$podrost_EU,
+                                   in.clim.data.podrost$understory_EU,
                                    50.0592)
   
   ## Ranspurk
   out$RN_ACCA_smallTrees<-add.data(in.tree.data$RN_ACCA_smallTrees, 
                                    climate_data$Ranspurk_stationclim, 
-                                   in.clim.data.podrost$podrost_RN,
+                                   in.clim.data.podrost$understory_RN,
                                    48.6783)
   out$RN_CABE_smallTrees<-add.data(in.tree.data$RN_CABE_smallTrees, 
                                    climate_data$Ranspurk_stationclim, 
-                                   in.clim.data.podrost$podrost_RN,
+                                   in.clim.data.podrost$understory_RN,
                                    48.6783)
   out$RN_ULSP_smallTrees<-add.data(in.tree.data$RN_ULSP_smallTrees, 
                                    climate_data$Ranspurk_stationclim, 
-                                   in.clim.data.podrost$podrost_RN,
+                                   in.clim.data.podrost$understory_RN,
                                    48.6783)
   
   ## Zofin
   out$ZF_FASY_smallTrees<-add.data(in.tree.data$ZF_FASY_smallTrees, 
                                    climate_data$Zofin_stationclim, 
-                                   in.clim.data.podrost$podrost_ZF,
+                                   in.clim.data.podrost$understory_ZF,
                                    48.6666)
   out$ZF_PCAB_smallTrees<-add.data(in.tree.data$ZF_PCAB_smallTrees, 
                                    climate_data$Zofin_stationclim, 
-                                   in.clim.data.podrost$podrost_ZF,
+                                   in.clim.data.podrost$understory_ZF,
                                    48.6666)
   
   return(out)
@@ -632,5 +632,6 @@ dendrometer_data_4model$RN_CABE_smallTrees<-connect.swc(prepare.swc(load.swp.dat
                                                         dendrometer_data_4model$RN_CABE_smallTrees)
 dendrometer_data_4model$RN_ULSP_smallTrees<-connect.swc(prepare.swc(load.swp.data("Datasets/SWP_data/Ranspurk")),
                                                         dendrometer_data_4model$RN_ULSP_smallTrees)
+
 
 model_dataset_podrost<-complete.data.podrost(dendrometer_data_4model, climate_data, climate_data_forest)
