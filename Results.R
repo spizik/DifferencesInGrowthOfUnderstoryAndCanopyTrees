@@ -356,13 +356,15 @@ w=12 ; h=18
 ggsave("Outputs/Figure_1.pdf", figure, width = w, height = h, units="cm", dpi=600)
 
 ## Figure 2 - growing season lengths ####
-source("Functions_figure_making_and_data_analysis/Figure_02A.R")
+# source("Functions_figure_making_and_data_analysis/Figure_02A.R")
+source("Functions_figure_making_and_data_analysis/Figure_02A_revised.R")
 figure_a<-figure
 
 source("Functions_figure_making_and_data_analysis/Figure_02BC.R")
 figure_bc<-figure
 
-source("Functions_figure_making_and_data_analysis/Figure_02D.R")
+# source("Functions_figure_making_and_data_analysis/Figure_02D.R")
+source("Functions_figure_making_and_data_analysis/Figure_02D_revised.R")
 figure_d<-figure
 
 figure<-ggarrange(figure_a, figure_bc,figure_d,nrow=3,ncol=1,align="hv",common.legend=T,legend="bottom",heights=c(0.4,0.3,0.3),labels=c("A","","D"))
@@ -372,13 +374,15 @@ ggsave("Outputs/Figure_2.png", figure, width=w, height=h, units="cm", dpi=600)
 ggsave("Outputs/Figure_2.pdf", figure, width = w, height = h, units="cm", dpi=600)
 
 ## Figure 3 - daily timing of phases ####
-source("Functions_figure_making_and_data_analysis/Figure_03A.R")
+# source("Functions_figure_making_and_data_analysis/Figure_03A.R")
+source("Functions_figure_making_and_data_analysis/Figure_03A_revised.R")
 figure_a<-figure
 
 source("Functions_figure_making_and_data_analysis/Figure_03C.R")
 figure_c<-figure
 
-source("Functions_figure_making_and_data_analysis/Figure_03B.R")
+# source("Functions_figure_making_and_data_analysis/Figure_03B.R")
+source("Functions_figure_making_and_data_analysis/Figure_03B_revised.R")
 figure_b<-figure
 
 source("Functions_figure_making_and_data_analysis/Figure_03D.R") # divna statistika, ale asi neni potreba, hlaska je v clanku jen, ze se to shoduje
@@ -391,7 +395,8 @@ ggsave("Outputs/Figure_3.png", figure, width=w, height=h, units="cm", dpi=600)
 ggsave("Outputs/Figure_3.pdf", figure, width = w, height = h, units="cm", dpi=600)
 
 ## Figure 4 - Number of GRO periods within a day ####
-source("Functions_figure_making_and_data_analysis/Figure_04.R")
+# source("Functions_figure_making_and_data_analysis/Figure_04.R")
+source("Functions_figure_making_and_data_analysis/Figure_04_revised.R")
 
 w=22 ; h=28
 ggsave("Outputs/Figure_4.png", figure, width=w, height=h, units="cm", dpi=600)
@@ -441,21 +446,24 @@ ggsave("Outputs/Supplementary_Figure_02.png", figure, width=w, height=h, units="
 ggsave("Outputs/Supplementary_Figure_02.pdf", figure, width = w, height = h, units="cm", dpi=600)
 
 ## Supplementary Figure 3 - Growth percentile realization ####
-source("Functions_figure_making_and_data_analysis/SupplementaryFigure_03.R")
+# source("Functions_figure_making_and_data_analysis/SupplementaryFigure_03.R")
+source("Functions_figure_making_and_data_analysis/SupplementaryFigure_03_revised.R")
 
 w=20 ; h=28
 ggsave("Outputs/Supplementary_Figure_03.png", figure, width=w, height=h, units="cm", dpi=600)
 ggsave("Outputs/Supplementary_Figure_03.pdf", figure, width = w, height = h, units="cm", dpi=600)
 
 ## Supplementary Figure 4 - periods ratios ####
-source("Functions_figure_making_and_data_analysis/SupplementaryFigure_04.R")
+# source("Functions_figure_making_and_data_analysis/SupplementaryFigure_04.R")
+source("Functions_figure_making_and_data_analysis/SupplementaryFigure_04_revised.R")
 
 w=20 ; h=40
 ggsave("Outputs/Supplementary_Figure_04.png", figure, width=w, height=h, units="cm", dpi=600)
 ggsave("Outputs/Supplementary_Figure_04.pdf", figure, width = w, height = h, units="cm", dpi=600)
 
 ## Supplementary Figure 5 - Increments/schrinkage intensity ####
-source("Functions_figure_making_and_data_analysis/SupplementaryFigure_05.R")
+# source("Functions_figure_making_and_data_analysis/SupplementaryFigure_05.R")
+source("Functions_figure_making_and_data_analysis/SupplementaryFigure_05_revised.R")
 
 w=40 ; h=20
 ggsave("Outputs/Supplementary_Figure_05.png", figure, width=w, height=h, units="cm", dpi=600)
